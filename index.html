@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>指挥中心 · 潮玩电商 AI 运营中台</title>
+<meta name="description" content="潮玩电商 AI 运营中台演示站：8 个 Agent 的指挥中心，含 5 步主演示。纯前端、数据虚构、断网可用。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2317171a'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23fafafa'%3E8%3C/text%3E%3C/svg%3E">
+<script>(function(){var d=document.documentElement;d.classList.remove('no-js');try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}d.setAttribute('data-theme',t)}catch(e){}})();</script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/hub.css">
+</head>
+<body>
+<header class="site-nav"><div class="container wide"><div class="bar">
+<a class="brand" href="index.html"><span class="brand-dot"></span>潮玩 AI 运营中台</a>
+<nav class="nav-links" aria-label="主导航"><a href="index.html" class="active" aria-current="page"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg><span>指挥中心</span></a><a href="risk.html"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg><span>风控演示台</span></a><a href="box.html"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7.5 12 3l9 4.5v9L12 21l-9-4.5z"/><path d="M3 7.5 12 12l9-4.5M12 12v9"/></svg><span>组箱定价</span></a><a href="kb.html"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h6a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H3z"/><path d="M21 5h-6a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h7z"/></svg><span>知识库</span></a><a href="about.html"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span>关于</span></a></nav>
+<div class="nav-tools"><span class="status-pill"><span class="led"></span>8 Agent 运行中 · 离线演示</span>
+<a class="icon-btn" href="https://github.com/zj85997-hash/chaowan-ai-ops-hub" target="_blank" rel="noopener" aria-label="GitHub"><svg class="i fill" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+<button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label="切换深浅色"><svg class="i moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg><svg class="i sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg></button></div>
+</div></div></header>
+<main class="container wide">
+
+<section class="intro glass corners gx reveal">
+  <span class="kicker"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 3v4M17 5h4"/></svg> AIY 黑客松 · 扣子赛道成人组第一名 · 纯前端复刻</span>
+  <h1>潮玩电商 AI 运营中台</h1>
+  <p class="lead">潮玩电商的运营每天要干 16 件事，这里把其中 8 件交给了 AI。8 个 Agent 的判断都在你的浏览器里完成：规则写在知识库里，算数交给代码。数据全部虚构，断网也能用。</p>
+  <div class="actions"><button class="btn solid" id="tour-start" type="button">▶ 开始 5 步主演示</button><a class="btn" href="risk.html">社群风控演示台</a><a class="btn" href="box.html">组箱定价</a><a class="btn ghost" href="about.html">这是什么项目</a></div>
+</section>
+<div class="kpis" id="kpis"></div>
+<section class="tour glass" id="tour" aria-live="polite"><div class="tour-steps" id="tour-steps"></div><div class="tour-text"><p id="tour-desc"></p><button class="btn solid sm" id="tour-next" type="button">下一步 →</button></div></section>
+<section class="section" id="agents-sec"><div class="eyebrow"><span class="num">01</span><span class="sep">/</span><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg><span>Agents</span></div><h2>8 个 Agent</h2><p class="desc">每个 Agent 有两个演示场景，点一下就跑。卡片上写着它替代的人力和用到的知识库。</p><div class="agents" id="agents"></div></section>
+<section class="section" id="console"><div class="eyebrow"><span class="num">02</span><span class="sep">/</span><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3"/><path d="M12.5 15H17"/></svg><span>Console</span></div><h2>运行台</h2><p class="desc">左边改输入，右边看 AI 一步步怎么判断。8 个 Agent 输出同一种 JSON 结构，前端只需要一个渲染器。</p>
+<div class="console"><div class="console-input glass corners"><h3 id="console-title"></h3><p class="hint" id="console-hint"></p><div id="console-form"></div><button class="btn solid" id="console-run" type="button">运行</button></div>
+<div class="console-out glass" id="console-out"><div class="empty"><b>选一个 Agent 场景，或者点「开始 5 步主演示」</b>判断过程会在这里逐条出现。</div></div></div></section>
+
+</main>
+<footer class="site-foot"><div class="container wide">
+<span class="left"><span class="brand-dot"></span>潮玩电商 AI 运营中台 · 演示站</span>
+<span class="right">数据全部虚构 · <a href="https://zj85997-hash.github.io/">付钟浩 Alex</a> · MIT</span>
+</div></footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/engine.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/hub.js"></script>
+</body>
+</html>
