@@ -90,7 +90,7 @@ def back():
 
 INDEX = '''
 <section class="intro glass corners gx reveal">
-  <span class="kicker">%(sparkle)s AIY 黑客松 · 扣子赛道成人组第一名 · 纯前端复刻</span>
+  <span class="kicker">%(sparkle)s AIY 黑客松 · 扣子 Coze 赛道铜奖 · 纯前端复刻</span>
   <h1>潮玩电商 AI 运营中台</h1>
   <p class="lead">潮玩电商的运营每天要干 16 件事，这里把其中 8 件交给了 AI。8 个 Agent 的判断都在你的浏览器里完成：规则写在知识库里，算数交给代码。数据全部虚构，断网也能用。</p>
   <div class="actions"><button class="btn solid" id="tour-start" type="button">▶ 开始 5 步主演示</button><a class="btn" href="risk.html">社群风控演示台</a><a class="btn" href="box.html">组箱定价</a><a class="btn ghost" href="about.html">这是什么项目</a></div>
@@ -148,7 +148,7 @@ TASKS = [
 ]
 
 ABOUT = '''
-<div class="page-head">%(back)s<h1>这是什么项目</h1><p class="desc">AIY 黑客松扣子赛道成人组第一名的作品，原版跑在扣子平台上。这个演示站把同一套逻辑用纯前端重写了一遍，谁都能直接打开试。</p></div>
+<div class="page-head">%(back)s<h1>这是什么项目</h1><p class="desc">AIY 黑客松扣子 Coze 赛道铜奖作品，原版跑在扣子平台上。这个演示站把同一套逻辑用纯前端重写了一遍，谁都能直接打开试。</p></div>
 <section class="section">%(e1)s<h2>背景</h2>
 <div class="story-card glass corners"><p>目标用户是中小型潮玩电商平台的运营主管和客服主管。每天晚上 9 点到凌晨 1 点是流水最高峰，也是客诉最高峰：大额投诉赔多少全靠主管拍脑袋，社群要 8–12 个人轮班盯着还是会漏，开一期新活动的选品组箱定价要 7–11 小时，算错一次整箱亏。</p>
 <p>原版在扣子平台上用 8 个 Bot、8 条 Workflow、4 个知识库和 Python 代码节点实现，外挂指挥中心看板、社群风控演示台和移动端对话页。团队作品，我负责统筹和路演主讲：把业务拆成智能体施工图纸、带队按时交付、上台路演。</p>
@@ -197,7 +197,7 @@ PAGES = [
     ('risk.html', '社群风控演示台', '三栏演示：群聊输入、五步判定、分级输出。68 个敏感词分四级，跨群串联检测。', RISK, ['risk.js']),
     ('box.html', '组箱定价', '输入份数、单价和毛利线，实时配出六个赏级并验算成本上限。', BOX, ['box.js']),
     ('kb.html', '知识库', '8 个 Agent 依据的全部规则和数据，补偿规则可以现场修改。', KB, ['kb.js']),
-    ('about.html', '关于这个项目', 'AIY 黑客松扣子赛道成人组第一名作品的纯前端复刻：背景、架构、统一输出契约、安全与合规边界。', ABOUT, []),
+    ('about.html', '关于这个项目', 'AIY 黑客松扣子 Coze 赛道铜奖作品的纯前端复刻：背景、架构、统一输出契约、安全与合规边界。', ABOUT, []),
 ]
 
 
